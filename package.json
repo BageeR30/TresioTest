@@ -1,0 +1,68 @@
+{
+  "name": "",
+  "version": "",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@datatables.net/editor-2025-01-20-dt": "^2.3.2",
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^2.0.10",
+    "axios": "^1.7.9",
+    "core-js": "^3.8.3",
+    "datatables.net-bs": "^2.2.0",
+    "datatables.net-buttons-dt": "^3.2.0",
+    "datatables.net-datetime": "^1.5.5",
+    "datatables.net-dt": "^2.2.0",
+    "datatables.net-plugins": "^2.1.7",
+    "datatables.net-select-dt": "^3.0.0",
+    "highcharts": "^12.1.2",
+    "jquery": "^3.7.1",
+    "jszip": "^3.10.1",
+    "lodash": "^4.17.21",
+    "pdfmake": "^0.2.18",
+    "sass": "^1.83.1",
+    "sass-loader": "^16.0.4",
+    "tiny-emitter": "^2.1.0",
+    "vue": "^2.7.16",
+    "vue-axios": "^3.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli": "^5.0.8",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "vue/multi-word-component-names": 0
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "@",
+  "readme": "ERROR: No README data found!"
+}
